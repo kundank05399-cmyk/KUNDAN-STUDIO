@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KUNDAN STUDIO — Creative Direction & Design</title>
+  <meta name="description" content="KUNDAN STUDIO — a fictional independent design practice. Identity, visual systems, and digital design for brands that value clarity and character. Sample learning project.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="KUNDAN STUDIO home">KUNDAN<span>STUDIO</span></a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button"
+              aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-list">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent design practice / sample project</p>
+          <h1>Make the idea impossible to <em>ignore.</em></h1>
+          <p class="hero-lede">KUNDAN STUDIO builds focused identities and digital systems for brands that value clarity, character, and deliberate visual decisions.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">See selected work</a>
+            <a class="text-link" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Abstract typographic composition">
+          <span class="visual-number">01</span>
+          <span class="visual-word visual-word-a">FORM</span>
+          <span class="visual-word visual-word-b">/</span>
+          <span class="visual-word visual-word-c">INTENT</span>
+          <span class="visual-line line-a"></span>
+          <span class="visual-line line-b"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-section section" id="work">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / Selected work</p>
+          <h2>Three fictional cases built to practice a complete visual system.</h2>
+        </div>
+
+        <div class="work-grid" id="work-grid">
+          <!-- Project cards are rendered here by js/script.js from the PROJECTS data -->
+        </div>
+
+        <aside class="project-detail" id="project-detail" aria-live="polite">
+          <p class="project-detail-eyebrow" id="project-detail-eyebrow">Selected project</p>
+          <h3 class="project-detail-title" id="project-detail-title">Select a project</h3>
+          <p class="project-detail-type" id="project-detail-type">—</p>
+          <p class="project-detail-desc" id="project-detail-desc">Choose one of the three sample cases above to view its case-study panel.</p>
+          <p class="project-detail-note" id="project-detail-note">Sample / fictional project — not a real client.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="split-section section" id="approach">
+      <div class="container split-grid">
+        <div class="section-heading sticky-heading">
+          <p class="eyebrow">02 / Approach</p>
+          <h2>Less decoration. More intention.</h2>
+        </div>
+        <div class="approach-copy">
+          <p class="lead">Strong visual work starts before the first shape is drawn. We define the message, find the tension worth owning, and build a visual language that can hold it.</p>
+          <div class="principles">
+            <article class="principle"><span>01</span><div><h3>Meaning first</h3><p>Every visual decision should reinforce what the brand needs to communicate.</p></div></article>
+            <article class="principle"><span>02</span><div><h3>Contrast with purpose</h3><p>Scale, space, weight, and restraint create hierarchy before decoration enters the room.</p></div></article>
+            <article class="principle"><span>03</span><div><h3>Systems, not moments</h3><p>The identity should stay recognizable across screens, touchpoints, and future content.</p></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">03 / Services</p>
+          <h2>Identity work designed to move from concept to use.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-no">01</span><h3>Brand Identity</h3><p>Core visual language, logo direction, typography, color, and practical identity rules.</p></article>
+          <article class="service-card"><span class="service-no">02</span><h3>Visual Systems</h3><p>Layouts, graphic devices, art direction, and reusable components that create consistency.</p></article>
+          <article class="service-card"><span class="service-no">03</span><h3>Digital Design</h3><p>Landing pages and digital compositions that turn the identity into a usable experience.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-section section">
+      <div class="container">
+        <div class="section-heading narrow-heading">
+          <p class="eyebrow">04 / Process</p>
+          <h2>A simple sequence that keeps decisions connected.</h2>
+        </div>
+        <ol class="process-list">
+          <li><span>01</span><h3>Strategy</h3><p>Clarify the audience, problem, message, and opportunity.</p></li>
+          <li><span>02</span><h3>Direction</h3><p>Translate the strategy into a distinct visual route.</p></li>
+          <li><span>03</span><h3>Design</h3><p>Build the identity and its working components.</p></li>
+          <li><span>04</span><h3>Delivery</h3><p>Organize the system so it is clear, consistent, and usable.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">05 / Contact</p>
+          <h2>Have a good idea? Give it a sharper shape.</h2>
+          <p>This form is part of the learning project. It does not send data to a real server.</p>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+          <div class="field"><label for="message">What are you building?</label><textarea id="message" name="message" rows="5" required></textarea></div>
+          <button class="button button-primary" type="submit">Send sample enquiry</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>KUNDAN STUDIO / learning project</p>
+      <a href="#top">Back to top ↗</a>
+    </div>
+  </footer>
+</body>
+</html>
